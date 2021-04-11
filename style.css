@@ -1,0 +1,217 @@
+p {
+  padding-left: 300px;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+img {
+    position:absolute;
+    width: auto;
+    height: 100%;
+}
+
+audio {
+  visibility: hidden;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*start: kneeback */
+#kneeback {
+  background-color: #927f99;
+}
+
+.kneeback_img {
+  right: 0px;
+}
+
+.kneeback_img:hover {
+  height: 50%;
+}
+/*end: kneeback */
+
+/*start: finger */
+#finger {
+  background-color: #95aabf;
+}
+
+#p1.phalange{
+  position: fixed;
+  bottom: 43px;
+  left: 89px;
+  max-height: 9%;
+}
+#p2.phalange{
+  position: fixed;
+  bottom: 73px;
+  left: 164px;
+  max-height: 25%;
+}
+#p3.phalange{
+  position: fixed;
+  bottom: 238px;
+  left: 281px;
+  max-height: 13%;
+}
+#p4.phalange{
+  position: fixed;
+  bottom: 276px;
+  left: 384px;  
+  max-height: 20%;
+}
+#p5.phalange{
+  position: fixed;
+  bottom: 384px;
+  left: 554px;
+  max-height: 20%;
+}
+
+.P1front-off{
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
+.P1front-off:hover {
+  opacity: 0.2;
+}
+
+.P2front-off{
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
+.P2front-off:hover {
+  opacity: 0.2;
+}
+
+.P3front-off{
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
+.P3front-off:hover {
+  opacity: 0.2;
+}
+
+.P4front-off{
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
+.P4front-off:hover {
+  opacity: 0.2;
+}
+
+.P5front-off{
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
+.P5front-off:hover {
+  opacity: 0.2;
+}
+/*end: finger */
+
+/*start: spine */
+#spine {
+  background-color: #59785f;
+}
+
+.flex-container{
+  display: flex;
+  height: 100vh;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.box{
+  width: 30%;
+  max-height: 100%;
+  display: flex;
+  flex-grow: 1 1 0;
+  justify-content: center;
+}
+
+.box img{
+  max-height: 120px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+#v4.vertebra{
+  max-height: 90px;
+  padding-bottom: 5px;
+}
+#v5.vertebra{
+  max-height: 80px;
+   padding-bottom: 15px;
+}
+#v6.vertebra{
+  max-height: 40px;
+}
+
+.vertebra {
+  position: relative;
+  height: 20%;
+  vertical-align: top;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
+
+.vertebra:hover {
+  opacity: 0.2;
+}
+/*end: spine */
+
+/*start: armpit */
+#armpit {
+  background-color: #ba6161;
+}
+
+#armpit a{
+  color: black;
+  text-decoration: none;
+}
+
+#armpit a:hover {
+  color: red;
+ }
+
+.armpitcenter{
+  vertical-align: top;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
+
+.armpitcenter:hover {
+  opacity: 0;
+}
+/*end: armpit */
+
+/*start: earlobe */
+#earlobe {
+  background-color: #e3bfd7;
+}
+
+.ELfront-on {
+  vertical-align: top;
+  display: inline-block;
+  background: #000;
+}
+
+.ELfront-off{
+  vertical-align: top;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
+
+.ELfront-off:hover {
+  opacity: 0.2;
+}
+/*end: earlobe */
